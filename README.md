@@ -250,181 +250,69 @@ Para ejecutar el proyecto localmente es necesario disponer de:
 
 El proyecto utiliza Laravel 10 y requiere PHP 8.1 o superior según las dependencias definidas en composer.json
 
-En proceso...
+## 🧪 Tests
 
-
-
-
-
-
-
-
-
-<!--
-
-⚙️ Instalación
-1. Clonar el repositorio
-
-git clone https://github.com/juanpy94/Proyecto-DAW-24-25.git
-
-Entrar en la carpeta del proyecto:
-
-cd Proyecto-DAW-24-25
-
-2. Instalar las dependencias de PHP
-composer install
-
-3. Instalar las dependencias de JavaScript
-npm install
-
-4. Configurar el archivo .env
-Copiar el archivo de configuración de ejemplo:
-
-cp .env.example .env
-
-En Windows también se puede copiar manualmente .env.example y renombrarlo como .env.
-
-Después, configurar los datos de conexión a la base de datos.
-
-Por ejemplo:
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=nombre_base_datos
-DB_USERNAME=root
-DB_PASSWORD=
-
-El proyecto está configurado para utilizar MySQL en el archivo .env.example
-
-5. Generar la clave de la aplicación
-php artisan key:generate
-
-6. Crear la base de datos
-Crear una base de datos MySQL para el proyecto.
-
-Por ejemplo:
-
-CREATE DATABASE proyecto_daw;
-
-Después, indicar el nombre de la base de datos en el archivo .env:
-
-DB_DATABASE=proyecto_daw
-
-7. Ejecutar las migraciones
-php artisan migrate
-
-Si el proyecto dispone de datos iniciales mediante seeders:
-
-php artisan migrate --seed
-
-8. Crear el enlace de almacenamiento
-php artisan storage:link
-
-9. Compilar los recursos frontend
-Para desarrollo:
-
-npm run dev
-
-Para generar los recursos optimizados:
-
-npm run build
-
-El proyecto utiliza Vite para la gestión y compilación de los recursos frontend
-
-10. Ejecutar la aplicación
-En otra terminal:
-
-php artisan serve
-
-La aplicación estará disponible normalmente en:
-
-http://127.0.0.1:8000
-
-🚀 Puesta en marcha rápida
-Una vez configurado el proyecto, el flujo habitual para trabajar en desarrollo es:
-
-composer install
-npm install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan storage:link
-npm run dev
-
-Y en otra terminal:
-
-php artisan serve
-
-🧪 Tests
 El proyecto incluye configuración para realizar pruebas mediante PHPUnit, utilizando las herramientas de testing proporcionadas por Laravel. 
-G
-GitHub
 
 Para ejecutar las pruebas:
-php artisan test
+- php artisan test
 
+## 📸 Capturas de pantalla
 
-📸 Capturas de pantalla
+### 🏠 Página principal
 
-💡 Añade aquí capturas reales de tu aplicación. Esta sección es especialmente recomendable si utilizas este repositorio como portfolio.
+<img width="1920" height="1032" alt="pagina principal" src="https://github.com/user-attachments/assets/f97b294b-c578-48d0-a4c6-18f4821c7948" />
 
-Página principal
-Inicio de sesión
-Panel del cliente
-Gestión de reparaciones
-Gestión de facturas
-Factura en PDF
+### 🔐 Inicio de sesión
 
-📚 Contexto académico
+<img width="1919" height="912" alt="iniciar_sesion" src="https://github.com/user-attachments/assets/4b3e9973-b5f0-4bf3-8303-6e2e373005a1" />
+
+### 📝 Registrarse como nuevo cliente
+
+<img width="1900" height="918" alt="registrarse" src="https://github.com/user-attachments/assets/682f07e7-b788-4288-bdfa-77bf386a1f32" />
+
+### 👤 Panel del cliente
+
+<img width="1908" height="906" alt="panel_cliente" src="https://github.com/user-attachments/assets/88bde0be-25b3-4f51-88ea-429886df84d8" />
+
+### 🔧 Panel del jefe taller
+
+<img width="1914" height="915" alt="panel _jefe_taller" src="https://github.com/user-attachments/assets/6209087e-8052-4359-998c-cd062670dd78" />
+
+### 🛠️ Panel del mecánico
+
+<img width="1913" height="914" alt="Panel_mecanico" src="https://github.com/user-attachments/assets/4248e0ba-5cb1-4a63-b7b0-5268d1abfd1e" />
+
+### 🧾 Panel del administrativo
+
+<img width="1910" height="918" alt="panel_administrativo" src="https://github.com/user-attachments/assets/c969e1e7-02ec-40f2-9566-3ef164ffd778" />
+
+### ⚙️ Panel del administrador
+
+<img width="1915" height="921" alt="panel_administrador" src="https://github.com/user-attachments/assets/a481a93a-dba2-40cc-ae93-d533c1b165be" />
+
+## 📚 Contexto académico
 
 Este proyecto fue desarrollado durante el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
 
 Durante el desarrollo se han aplicado conocimientos relacionados con:
 
-Desarrollo backend.
+- Desarrollo backend.
+- Desarrollo frontend.
+- Bases de datos relacionales.
+- Arquitectura MVC.
+- Programación orientada a objetos.
+- Autenticación y autorización.
+- Gestión de sesiones.
+- Validación de formularios.
+- CRUD.
+- Gestión de roles y permisos.
+- Generación de documentos PDF.
+- Migraciones y seeders.
+- Gestión de dependencias.
+- Control de versiones con Git.
+- Desarrollo de aplicaciones web con Laravel.
 
-Desarrollo frontend.
+## 📄 Licencia
 
-Bases de datos relacionales.
-
-Arquitectura MVC.
-
-Programación orientada a objetos.
-
-Autenticación y autorización.
-
-Gestión de sesiones.
-
-Validación de formularios.
-
-CRUD.
-
-Gestión de roles y permisos.
-
-Generación de documentos PDF.
-
-Migraciones y seeders.
-
-Gestión de dependencias.
-
-Control de versiones con Git.
-
-Desarrollo de aplicaciones web con Laravel.
-
-👨‍💻 Autor
-Juan
-
-Proyecto desarrollado como parte del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
-
-GitHub:
-
-https://github.com/juanpy94
-
-📄 Licencia
 Este proyecto ha sido desarrollado con fines académicos y como muestra de aprendizaje y desarrollo de aplicaciones web.
-
--->
-
-
-
